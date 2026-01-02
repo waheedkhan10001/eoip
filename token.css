@@ -1,0 +1,89 @@
+:root {
+  /* =========================
+     CANVAS & SURFACES
+     ========================= */
+
+  /* App background
+     Use: body */
+  --bg-app: #0e1117;
+
+  /* Main layout surface
+     Use: sidebar, main shell */
+  --bg-surface: #161b22;
+  --bg-section: #1a2029; /* dashboard background */
+
+  /* Elevated surfaces
+     Use: cards, tables, panels */
+  --bg-panel: #1f2630;
+
+  /* =========================
+     TEXT
+     ========================= */
+
+  /* Primary text on dark surfaces */
+  --text-primary: #e6edf3;
+
+  /* Secondary / muted text */
+  --text-muted: #9da7b3;
+
+  /* Inverted text
+     Use ONLY on light surfaces */
+  --text-inverted: #0e1117;
+
+  /* =========================
+     INTERACTION & STATE
+     ========================= */
+
+  /* Primary action / active state */
+  --accent-primary: #4f7cff;
+
+  /* Success / healthy */
+  --accent-success: #2fbf8f;
+
+  /* Warning / attention */
+  --accent-warning: #f0ad4e;
+
+  /* Critical / error */
+  --accent-danger: #e5533d;
+
+  /* =========================
+     BORDERS & DIVIDERS
+     ========================= */
+  --border-radius: 16px;
+  /* Subtle separators */
+  --border-subtle: #2a3441;
+
+  /* =========================
+     LIGHT SURFACE (RARE)
+     ========================= */
+
+  /* Light container when needed */
+  --bg-light: #f8fafc;
+
+  /* Border on light surfaces */
+  --border-light: #e5e7eb;
+  /*effects*/
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.12);
+  /*  =============
+    Spacing
+    =============*/
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+
+  /* ============
+Font Sizes 
+=============*/
+  --font-size-1: 0.25rem;
+  --font-size-2: 0.5rem;
+  --font-size-3: 0.75rem;
+  --font-size-4: 1rem;
+  --font-size-5: 1.5rem;
+  --font-size-6: 2rem;
+  --font-size-7: 3rem;
+}
